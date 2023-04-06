@@ -13,7 +13,7 @@ import {
 
 import { ManhwaXParser } from './ManhwaXParser'
 
-const MANHWAX_DOMAIN = 'https://manhwax.com'
+const MANHWAX_DOMAIN = 'https://manhwax.org'
 
 export const ManhwaXInfo: SourceInfo = {
     version: getExportVersion('0.0.0'),
