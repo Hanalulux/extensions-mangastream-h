@@ -16,7 +16,7 @@ import { ManhwaXParser } from './ManhwaXParser'
 const MANHWAX_DOMAIN = 'https://manhwax.org'
 
 export const ManhwaXInfo: SourceInfo = {
-    version: getExportVersion('0.0.0'),
+    version: getExportVersion('0.0.2'),
     name: 'ManhwaX',
     description: 'Extension that pulls manga from ManhwaX',
     author: 'Netsky',
