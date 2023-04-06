@@ -1796,9 +1796,9 @@ exports.ManhwaX = exports.ManhwaXInfo = void 0;
 const paperback_extensions_common_1 = require("paperback-extensions-common");
 const MangaStream_1 = require("../MangaStream");
 const ManhwaXParser_1 = require("./ManhwaXParser");
-const MANHWAX_DOMAIN = 'https://manhwax.com';
+const MANHWAX_DOMAIN = 'https://manhwax.org';
 exports.ManhwaXInfo = {
-    version: (0, MangaStream_1.getExportVersion)('0.0.0'),
+    version: (0, MangaStream_1.getExportVersion)('0.0.2'),
     name: 'ManhwaX',
     description: 'Extension that pulls manga from ManhwaX',
     author: 'Netsky',
